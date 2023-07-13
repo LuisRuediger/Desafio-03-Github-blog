@@ -13,10 +13,7 @@ export const HeaderContainer = styled.header`
   flex-direction: column;
   gap: 1.25rem;
 
-  span {
-    font-family: 'Coda';
-    font-size: 1.5rem;
-    line-height: 160%;
-    color: ${(props) => props.theme.blue};
+  img {
+    margin-bottom: 5.5rem;
   }
 `

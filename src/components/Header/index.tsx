@@ -5,7 +5,6 @@ export function Header() {
   return (
     <HeaderContainer>
       <img src={logo} alt="" />
-      <span>GITHUB BLOG</span>
     </HeaderContainer>
   )
 }
