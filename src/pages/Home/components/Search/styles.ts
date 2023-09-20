@@ -28,6 +28,7 @@ export const SearchContainer = styled.div`
 export const Input = styled.input`
   padding: 0.75rem 1rem;
   border-radius: 6px;
+  color: ${(props) => props.theme['base-text']};
   border: 1px solid ${(props) => props.theme['base-border']};
   background: ${(props) => props.theme['base-input']};
 
